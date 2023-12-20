@@ -41,3 +41,16 @@ let value = 8;
 //then value will be output in "-8"
 let negValue = -value;
 console.log(negValue);
+
+let name1 = "Hey,";
+let name2 = " Debjit Dey";
+
+let name3 = name1 + name2;
+console.log(name3);
+
+console.log(1 + 2);
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + "2" + 3);
+console.log(1 + 2 + "3");
