@@ -2,11 +2,11 @@
 
 function value() {
   if (true) {
-    let a = 12;
+    let c = 12;
   }
-  console.log(a);
+  console.log(c);
 }
-return value();
+return value;
 
 //The let declaration declares re-assignable, block-scoped local variables
 
