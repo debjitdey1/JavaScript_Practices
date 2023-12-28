@@ -34,3 +34,35 @@ Type of the JavaScript Operator:
                 typeof null                   // Returns "object"               
 
 That will be call for Function Object
+
+--------------------------------------------------------------------------------------------------------------------
+                                        -: Memory :-
+
+1) Stack Memory is use to (Premetive);     ........ A memory is  variable declare the copy
+2) Heap Memory is use to (Non-Premetive);  ........ A memory is origanal value is "Reference" value provided
+ 
+
+
+Stack Memory Example:-
+
+let myname = "Debjit Dey";
+
+let changename = myname;
+changename = "Dustu";
+console.log(changename); // output:  Debjit Dey
+console.log(myname);
+
+
+Heap memory Example:-
+
+
+let userOne={
+        accno: 2254658426652,
+        ifsc: "contai"
+}
+let userTwo =userOne;
+userTwo.ifsc="kolkata";
+console.log(userTwo.ifsc);
+console.log(userOne.ifsc);
+
+//(stack&heap_phto.png) *******  store 
