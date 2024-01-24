@@ -34,7 +34,7 @@ const Cource = {
 const { CourceInstructor } = Cource; //1 ta object ar vitore "key" put korle tar value chole aseee output ar modhaaaa..
 console.log(CourceInstructor);
 
-//JSON File In EXAPMLE::
+//JSON File In EXAPMLE:: To Copy tHe JSon File in RANDOM USER API call.....|
 
 // {
 //     "results": [
