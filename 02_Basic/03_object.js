@@ -28,5 +28,8 @@ console.log(jsUser);
 jsUser.greeting = function () {
   console.log("Hello Js Users");
 };
+jsUser.greeting2 = function () {
+  console.log(`hello Js Users`); // is this is call of the string (interpolation);
+};
 
-console.log(jsUser.greeting); //greeting method is call of the output "UNDEFIND";
+console.log(jsUser.greeting); //output "UNDEFIND";
