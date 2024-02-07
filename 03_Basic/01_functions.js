@@ -36,3 +36,33 @@ function LoggedMassage(username = "sam") {
   return `${username}Just logged Off`;
 }
 console.log(loginUserMassge());
+
+function calculatecartPrice(value1, ...num1) {
+  // "..." that is call for the "rest parameters";
+  return num1;
+}
+
+console.log(calculatecartPrice(200, 456, 789, 654));
+
+const user = {
+  usernames: "Debjit Dey",
+  prices: 989,
+};
+
+function handleObjects(anyobjects) {
+  console.log(
+    `User Name is ${anyobjects.usernames} and Price name is ${anyobjects.prices}`
+  );
+}
+
+handleObjects(user);
+
+const MynewArray = [200, 625, 791, 545, 842];
+
+function returnSecondvalue(getArray) {
+  return getArray[3];
+}
+
+console.log(returnSecondvalue(MynewArray));
+//Another Wayy
+console.log(returnSecondvalue([200, 625, 791, 545, 842]));
