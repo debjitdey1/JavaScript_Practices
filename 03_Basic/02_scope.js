@@ -29,7 +29,7 @@ function one() {
   // console.log(Website);
   two();
 }
-one();
+// one();
 
 if (true) {
   const userNames = "Debjit Dey";
@@ -40,3 +40,8 @@ if (true) {
   // console.log(Website);
 }
 // console.log(userNames);
+
+function addOne(num) {
+  return num + 1;
+}
+console.log(addOne(5));
