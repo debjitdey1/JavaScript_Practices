@@ -1,1 +1,1 @@
-console.log(userNames);
+console.log(num);
