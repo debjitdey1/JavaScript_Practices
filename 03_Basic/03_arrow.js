@@ -25,9 +25,14 @@ code();
 //   let userNames = "Yash";
 //   console.log(this.userNames);
 // };
-const codes = () => {
-  let userNames = "Yash";
-  console.log(this.userNames);
-};
+// const codes = () => {
+//   let userNames = "Yash";
+//   console.log(this.userNames);
+// };
 
-codes();
+// codes();
+
+const addTwo = function (num) {
+  return num + 2;
+};
+addTwo(6);
