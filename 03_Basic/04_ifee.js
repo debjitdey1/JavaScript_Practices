@@ -28,3 +28,21 @@ let result2 = addNumber(25, 94);
 
 console.log(result1);
 console.log(result2);
+
+// Call Stack
+
+function one() {
+  console.log("One");
+}
+
+function two() {
+  console.log("Two");
+}
+
+function three() {
+  console.log("three");
+}
+
+one();
+two();
+three();
