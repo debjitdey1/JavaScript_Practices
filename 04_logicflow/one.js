@@ -17,3 +17,18 @@ if (score > 100) {
   console.log(`User power: ${power}`);
 }
 // console.log(`User power: ${power}`);
+
+const balance = 5000;
+if (balance > 500) console.log("Test"); // scope lagalam na ake bole "IMPLICITE SCOPE" scope na lagale oo Condition Checkec Hobee
+
+//else if check the Condition
+const balanced = 2100;
+if (balanced < 500) {
+  console.log("LessThan 500");
+} else if (balance < 1000) {
+  console.log("less than 1000");
+} else if (balance > 1500) {
+  console.log("less than 1500");
+} else {
+  console.log("less than 2100");
+}
