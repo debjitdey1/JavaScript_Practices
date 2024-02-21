@@ -48,3 +48,7 @@ if (userLoggedIn && userDebitCard) {
 if (loggedInFromEmail || loggedInFromGoogle) {
   console.log("Enter for The Browsers");
 }
+
+//Logical Operator
+// && operator use is 2 condition is "True" So,they Definetly Exicuted of the Program Output will Not Given
+// || operator use is 1 condition is "True" So,they Definetly Exicuted of the Program and Output will Given
