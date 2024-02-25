@@ -19,3 +19,5 @@ for (let i = 0; i >= 10; i++) {
   }
   console.log(element);
 }
+
+//LOOP IN FORMETTING THE LOOPS CONCEPTS
