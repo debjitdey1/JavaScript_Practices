@@ -36,3 +36,22 @@ for (let index = 0; index < myArr.length; index++) {
   const element = myArr[index];
   console.log(element);
 }
+
+//break Statement
+
+for (let index = 1; index <= 15; index++) {
+  if (index == 5) {
+    console.log(`Dectator In the  numbers`);
+    break;
+  }
+  console.log(`value of is ${index}`);
+}
+
+// Continue Statement
+for (let index = 1; index <= 15; index++) {
+  if (index == 5) {
+    console.log(`Dectator In the  numbers`);
+    continue;
+  }
+  console.log(`value of is ${index}`);
+}
