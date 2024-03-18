@@ -6,7 +6,7 @@
 
 const nweNum = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const newnums = nweNum.filter((num) => {
-  return num > 4;
+  return num > 4; // use for the Return Keyword
 });
 
 console.log(newnums);
