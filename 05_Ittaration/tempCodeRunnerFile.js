@@ -1,2 +1,1 @@
-  console.log(key);
-//   console.log(programming[key]);
+console.log(coding[keys]);
