@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #212121; color: #ffff">
+    <div class="parent">
+      <!-- hey there -->
+      <div class="day">Monday</div>
+      <div class="day">TuesDay</div>
+      <div class="day">WednestDay</div>
+      <div class="day">ThusDay</div>
+    </div>
+  </body>
+  <script>
+    const parent = document.querySelector(".parent");
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[2].innerHTML);
+    //For loop
+    for (let i = 0; i < parent.children.length; i++) {
+      console.log(parent.children[i]);
+    }
+    //letter will be color changes
+    parent.children[2].style.color = "yellow";
+    parent.children[1].style.color = "Orange";
+    parent.children[3].style.color = "green";
+    console.log(parent.firstElementChild);
+
+    const dayOne = document.querySelector(".day");
+    console.log(dayOne.parentElement); //output of the First Day
+    console.log(dayOne.nextElementSibling); //output the value is the next day
+    // const dayTwo = document.querySelector(".dayTwo");
+    // console.log(dayTwo);// output : Null
+
+    console.log("Nodes: ", parent.childNodes); // structure For the "Tree" in the step by step is read
+  </script>
+</html>
