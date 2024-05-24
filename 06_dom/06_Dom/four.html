@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chai or code | DOM</title>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <ul class="language">
+      <li>Javascript</li>
+    </ul>
+  </body>
+  <script>
+    function addLanguages(langName) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(li);
+    } //proper tree basics codes
+    addLanguages("python");
+    addLanguages("C++");
+    addLanguages("JavaScript");
+    addLanguages("C");
+    addLanguages("React Js");
+
+    function addOptilanguages(langName) {
+      const li = document.createElement("li"); // declare to the "li"
+      li.appendChild(document.createTextNode(langName));
+      document.querySelector(".language").appendChild(li);
+    } //Not tree basic code ...... that is optimization codes
+    addOptilanguages("Hey coder");
+    addOptilanguages("Hey Harry");
+
+    // value Edited.......
+
+    const secondLang = document.querySelector("li:nth-child(2)"); // addLanguages("python") ==> automatically this will replaced  addLanguages("Mojo")
+    // secondLang.innerHTML = "Mojo";
+    const newLi = document.createElement("li");
+    newLi.textContent = "Captain America";
+    secondLang.replaceWith(newLi);
+  </script>
+</html>
